@@ -18,14 +18,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGb-7F-rQu">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="500"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="500" id="l2B-eZ-AGp"/>
+                                    <constraint firstAttribute="height" constant="400" id="l2B-eZ-AGp"/>
                                 </constraints>
                             </view>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="rentrez votre login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h5h-OG-ZqT">
-                                <rect key="frame" x="60" y="548" width="294" height="50"/>
+                                <rect key="frame" x="60" y="448" width="294" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="qpr-t3-pMw"/>
                                 </constraints>
@@ -33,12 +33,12 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="mot de passe" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V1c-zg-tfs">
-                                <rect key="frame" x="60" y="638" width="294" height="50"/>
+                                <rect key="frame" x="60" y="538" width="294" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h84-NB-zfL">
-                                <rect key="frame" x="60" y="762" width="294" height="60"/>
+                                <rect key="frame" x="60" y="662" width="294" height="60"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="BQO-1V-bwP"/>
