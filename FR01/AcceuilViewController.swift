@@ -18,3 +18,7 @@ class AcceuilViewController: UIViewController {
 
 
 }
+
+class NavBarre :UITabBarController{
+    
+}

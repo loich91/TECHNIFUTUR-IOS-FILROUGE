@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar Controller1-->
         <scene sceneID="Jaf-pH-aUC">
             <objects>
-                <tabBarController storyboardIdentifier="tab" id="aiY-h1-sv3" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tab" id="aiY-h1-sv3" customClass="tabBarController1" customModule="FR01" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jBd-qw-AwY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -35,7 +35,7 @@
         <!--Acceuil-->
         <scene sceneID="aNS-Ba-N9X">
             <objects>
-                <navigationController storyboardIdentifier="AcceuilNavBar" title="Acceuil" id="EbS-a6-XJ2" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="AcceuilNavBar" title="Acceuil" id="EbS-a6-XJ2" customClass="Nav1" customModule="FR01" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="acceuil" image="ico_house_white" id="HPd-vM-pRD"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JhJ-Ha-fhg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
