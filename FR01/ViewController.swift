@@ -15,5 +15,14 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func btn_cnx_acceuil(_ sender: Any) {
+        if let tab = storyboard?.instantiateViewController(withIdentifier: "tab"){
+           tab.modalPresentationStyle = .fullScreen
+                present(tab, animated: true, completion: nil)
+            
+        }
+    }
+
+    
 }
 
