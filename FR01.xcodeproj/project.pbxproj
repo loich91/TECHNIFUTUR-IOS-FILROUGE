@@ -16,7 +16,7 @@
 		F385460F2678908D00714B72 /* AcceuilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385460E2678908D00714B72 /* AcceuilViewController.swift */; };
 		F3854612267891F400714B72 /* MangerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3854611267891F400714B72 /* MangerViewController.swift */; };
 		F385461D2678AD4300714B72 /* tabBarController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385461C2678AD4300714B72 /* tabBarController1.swift */; };
-		F38546242678AE6400714B72 /* Nav1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38546232678AE6400714B72 /* Nav1.swift */; };
+		F38546242678AE6400714B72 /* AcceuilNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38546232678AE6400714B72 /* AcceuilNav.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		F385460E2678908D00714B72 /* AcceuilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceuilViewController.swift; sourceTree = "<group>"; };
 		F3854611267891F400714B72 /* MangerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangerViewController.swift; sourceTree = "<group>"; };
 		F385461C2678AD4300714B72 /* tabBarController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarController1.swift; sourceTree = "<group>"; };
-		F38546232678AE6400714B72 /* Nav1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav1.swift; sourceTree = "<group>"; };
+		F38546232678AE6400714B72 /* AcceuilNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceuilNav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				F31E2C292664E12A00E5B65A /* SceneDelegate.swift */,
 				F31E2C2B2664E12A00E5B65A /* ViewController.swift */,
 				F31E2C2D2664E12A00E5B65A /* Main.storyboard */,
-				F38546232678AE6400714B72 /* Nav1.swift */,
+				F38546232678AE6400714B72 /* AcceuilNav.swift */,
 				F385461C2678AD4300714B72 /* tabBarController1.swift */,
 				F3854611267891F400714B72 /* MangerViewController.swift */,
 				F385460E2678908D00714B72 /* AcceuilViewController.swift */,
@@ -154,7 +154,7 @@
 				F31E2C282664E12A00E5B65A /* AppDelegate.swift in Sources */,
 				F31E2C2A2664E12A00E5B65A /* SceneDelegate.swift in Sources */,
 				F385460F2678908D00714B72 /* AcceuilViewController.swift in Sources */,
-				F38546242678AE6400714B72 /* Nav1.swift in Sources */,
+				F38546242678AE6400714B72 /* AcceuilNav.swift in Sources */,
 				F3854612267891F400714B72 /* MangerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
