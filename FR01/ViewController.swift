@@ -18,12 +18,24 @@ class ViewController: UIViewController {
     @IBOutlet weak var reponseLabel: UILabel!
     @IBOutlet weak var bulleDirection: UIImageView!
     @IBOutlet weak var constraitBottomButton: NSLayoutConstraint!
+    @IBOutlet weak var imageLogin: UIImageView!
+    @IBOutlet weak var imageValidationLogin: UIImageView!
+    @IBOutlet weak var imagePswd: UIImageView!
+    @IBOutlet weak var imageValidationPswd: UIImageView!
     
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        design()
+         
+
+
+        
+
+    }
+    func design(){
         styleLoginBottom()
         imageTopJK()
         Mdp.isSecureTextEntry = true
@@ -44,13 +56,16 @@ class ViewController: UIViewController {
         selector: #selector(keyboardDesactive),
         name: UIResponder.keyboardWillHideNotification, object: nil
         )
-         
-
-
+        imageLogin.image = UIImage(named: "icoProfilDarkblue")
+        login.layer.cornerRadius = 50
+        login.leftView = imageLogin
+        login.leftViewMode = .always
+        imagePswd.image = UIImage(named: "icoPasswordDarkblue")
         
-
-    }
-    @objc func notifKeyboard(){
+        Mdp.layer.cornerRadius = 50
+        Mdp.leftView = imagePswd
+        Mdp.leftViewMode = .always
+ 
         
     }
     @objc func KeyboardActive(_ notification: Notification)  {
@@ -104,9 +119,16 @@ class ViewController: UIViewController {
         
     }
     func passwordStatement(mdp:String?) -> Bool {
-        if NSPredicate(format: "SELF MATCHES %@", "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$").evaluate(with: mdp){
-            return true
+        if mdp?.isEmpty ?? true {
+            return false
+            
         }
+        else{
+            if NSPredicate(format: "SELF MATCHES %@", "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$").evaluate(with: mdp){
+                return true
+            }
+        }
+
         return false
     }
     @IBAction func loginChange(_ sender: UITextField) {
@@ -115,10 +137,13 @@ class ViewController: UIViewController {
         if LoginStatement(login: login.text) {
             reponseLabel.text = "waah c'est tout vert"
             login.textColor = .green
+            imageValidationLogin.image = UIImage(named: "icoCheckGreen")
+
         }
         else{
             reponseLabel.text = "pas facile de tapper avec \n des gros doigts"
             login.textColor = .red
+            imageValidationLogin.image = UIImage(named: "icoCrossRed")
         }
     }
     @IBAction func pwdChange(_ sender: UITextField) {
@@ -126,10 +151,12 @@ class ViewController: UIViewController {
         reponseLabel.text = "tap tap tap tap tap tap ..."
         if passwordStatement(mdp: Mdp.text) {
             login.textColor = .green
+            imageValidationPswd.image = UIImage(named: "icoCheckGreen")
         }
         else{
             reponseLabel.text = "pas facile de tapper avec \n des gros doigts"
             login.textColor = .red
+            imageValidationPswd.image = UIImage(named: "icoCrossRed")
         }
     }
     

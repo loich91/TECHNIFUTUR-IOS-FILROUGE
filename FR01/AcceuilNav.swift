@@ -11,7 +11,8 @@ class Nav1: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationBar.barTintColor = .blue
+
+
     }
     
 

@@ -11,7 +11,7 @@ class tabBarController1: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tabBar.barTintColor = .blue
+
     }
     
 

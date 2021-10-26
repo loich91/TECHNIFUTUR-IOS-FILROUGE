@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,15 @@
 		F3854612267891F400714B72 /* MangerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3854611267891F400714B72 /* MangerViewController.swift */; };
 		F385461D2678AD4300714B72 /* tabBarController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385461C2678AD4300714B72 /* tabBarController1.swift */; };
 		F38546242678AE6400714B72 /* AcceuilNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38546232678AE6400714B72 /* AcceuilNav.swift */; };
+		F43012ED26DF5B8D0086CA7A /* JokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43012EC26DF5B8D0086CA7A /* JokeViewController.swift */; };
+		F43012F026DF5BE10086CA7A /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = F43012EF26DF5BE10086CA7A /* AlamofireImage */; };
+		F43012F226DF5DC10086CA7A /* DataChuckNorris.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43012F126DF5DC10086CA7A /* DataChuckNorris.swift */; };
+		F43012F426DF5E7C0086CA7A /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43012F326DF5E7C0086CA7A /* Value.swift */; };
+		F43012F726DF62D10086CA7A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43012F526DF62D10086CA7A /* TableViewCell.swift */; };
+		F43012F826DF62D10086CA7A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43012F626DF62D10086CA7A /* TableViewCell.xib */; };
+		F44DA02B2705BE5C00B242BC /* DataHomePager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44DA02A2705BE5C00B242BC /* DataHomePager.swift */; };
+		F44DA02E2705C1A000B242BC /* CollectionViewCellHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44DA02C2705C1A000B242BC /* CollectionViewCellHome.swift */; };
+		F44DA02F2705C1A000B242BC /* CollectionViewCellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = F44DA02D2705C1A000B242BC /* CollectionViewCellHome.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,14 @@
 		F3854611267891F400714B72 /* MangerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangerViewController.swift; sourceTree = "<group>"; };
 		F385461C2678AD4300714B72 /* tabBarController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarController1.swift; sourceTree = "<group>"; };
 		F38546232678AE6400714B72 /* AcceuilNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceuilNav.swift; sourceTree = "<group>"; };
+		F43012EC26DF5B8D0086CA7A /* JokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewController.swift; sourceTree = "<group>"; };
+		F43012F126DF5DC10086CA7A /* DataChuckNorris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataChuckNorris.swift; sourceTree = "<group>"; };
+		F43012F326DF5E7C0086CA7A /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		F43012F526DF62D10086CA7A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F43012F626DF62D10086CA7A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		F44DA02A2705BE5C00B242BC /* DataHomePager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHomePager.swift; sourceTree = "<group>"; };
+		F44DA02C2705C1A000B242BC /* CollectionViewCellHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellHome.swift; sourceTree = "<group>"; };
+		F44DA02D2705C1A000B242BC /* CollectionViewCellHome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCellHome.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43012F026DF5BE10086CA7A /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,10 +86,18 @@
 				F31E2C292664E12A00E5B65A /* SceneDelegate.swift */,
 				F31E2C2B2664E12A00E5B65A /* ViewController.swift */,
 				F31E2C2D2664E12A00E5B65A /* Main.storyboard */,
+				F43012EC26DF5B8D0086CA7A /* JokeViewController.swift */,
+				F43012F526DF62D10086CA7A /* TableViewCell.swift */,
+				F43012F626DF62D10086CA7A /* TableViewCell.xib */,
+				F43012F126DF5DC10086CA7A /* DataChuckNorris.swift */,
+				F43012F326DF5E7C0086CA7A /* Value.swift */,
 				F38546232678AE6400714B72 /* AcceuilNav.swift */,
 				F385461C2678AD4300714B72 /* tabBarController1.swift */,
 				F3854611267891F400714B72 /* MangerViewController.swift */,
 				F385460E2678908D00714B72 /* AcceuilViewController.swift */,
+				F44DA02C2705C1A000B242BC /* CollectionViewCellHome.swift */,
+				F44DA02D2705C1A000B242BC /* CollectionViewCellHome.xib */,
+				F44DA02A2705BE5C00B242BC /* DataHomePager.swift */,
 				F31E2C302664E13000E5B65A /* Assets.xcassets */,
 				F31E2C322664E13000E5B65A /* LaunchScreen.storyboard */,
 				F31E2C352664E13000E5B65A /* Info.plist */,
@@ -95,6 +121,9 @@
 			dependencies = (
 			);
 			name = FR01;
+			packageProductDependencies = (
+				F43012EF26DF5BE10086CA7A /* AlamofireImage */,
+			);
 			productName = FR01;
 			productReference = F31E2C242664E12A00E5B65A /* FR01.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +151,9 @@
 				Base,
 			);
 			mainGroup = F31E2C1B2664E12A00E5B65A;
+			packageReferences = (
+				F43012EE26DF5BE00086CA7A /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = F31E2C252664E12A00E5B65A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -136,7 +168,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44DA02F2705C1A000B242BC /* CollectionViewCellHome.xib in Resources */,
 				F31E2C342664E13000E5B65A /* LaunchScreen.storyboard in Resources */,
+				F43012F826DF62D10086CA7A /* TableViewCell.xib in Resources */,
 				F31E2C312664E13000E5B65A /* Assets.xcassets in Resources */,
 				F31E2C2F2664E12A00E5B65A /* Main.storyboard in Resources */,
 			);
@@ -149,11 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44DA02B2705BE5C00B242BC /* DataHomePager.swift in Sources */,
 				F31E2C2C2664E12A00E5B65A /* ViewController.swift in Sources */,
+				F43012F226DF5DC10086CA7A /* DataChuckNorris.swift in Sources */,
 				F385461D2678AD4300714B72 /* tabBarController1.swift in Sources */,
 				F31E2C282664E12A00E5B65A /* AppDelegate.swift in Sources */,
+				F43012ED26DF5B8D0086CA7A /* JokeViewController.swift in Sources */,
+				F44DA02E2705C1A000B242BC /* CollectionViewCellHome.swift in Sources */,
 				F31E2C2A2664E12A00E5B65A /* SceneDelegate.swift in Sources */,
+				F43012F726DF62D10086CA7A /* TableViewCell.swift in Sources */,
 				F385460F2678908D00714B72 /* AcceuilViewController.swift in Sources */,
+				F43012F426DF5E7C0086CA7A /* Value.swift in Sources */,
 				F38546242678AE6400714B72 /* AcceuilNav.swift in Sources */,
 				F3854612267891F400714B72 /* MangerViewController.swift in Sources */,
 			);
@@ -355,6 +395,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F43012EE26DF5BE00086CA7A /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F43012EF26DF5BE10086CA7A /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F43012EE26DF5BE00086CA7A /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F31E2C1C2664E12A00E5B65A /* Project object */;
 }
